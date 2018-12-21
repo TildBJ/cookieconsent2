@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-10-15T07:08:14Z"
+		  product-name="cookieconsent2">
+		<header/>
+		<body>
+			<trans-unit id="message">
+				<source>This website uses cookies to ensure you get the best experience on our website</source>
+				<target>Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklärst du dich damit einverstanden, dass wir Cookies verwenden.</target>
+			</trans-unit>
+			<trans-unit id="dismiss">
+				<source>Got it!</source>
+				<target>Verstanden!</target>
+			</trans-unit>
+			<trans-unit id="learnMore">
+				<source>More info</source>
+				<target>Mehr Infos</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

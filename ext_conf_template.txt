@@ -1,0 +1,2 @@
+# cat=basic/enable; type=boolean; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:feature.disableTypoScriptAutoloading
+disableTypoScriptAutoloading = 0

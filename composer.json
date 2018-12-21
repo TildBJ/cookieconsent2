@@ -1,0 +1,42 @@
+{
+  "name": "gutebotschafter/cookieconsent2",
+  "type": "typo3-cms-extension",
+  "description": "Include Cookie Consent, a lightweight JavaScript plugin for alerting users about the use of cookies on your website.",
+  "keywords": [
+    "TYPO3",
+    "cookie",
+    "consent",
+    "law",
+    "front-end",
+    "web"
+  ],
+  "homepage": "https://bitbucket.org/gutebotschafter/cookieconsent2/",
+  "authors": [
+    {
+      "name": "Morton Jonuschat",
+      "email": "m.jonuschat@gute-botschafter.de",
+      "role": "Developer",
+      "homepage": "http://www.gute-botschafter.de"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "support": {
+    "issues": "https://bitbucket.org/gutebotschafter/cookieconsent2/issues"
+  },
+  "require": {
+    "typo3/cms-core": ">=6.2.0,<8.0"
+  },
+  "replace": {
+    "cookieconsent2": "self.version",
+    "typo3-ter/cookieconsent2": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "develop"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+page.jsInline {
+	201105 = FLUIDTEMPLATE
+	201105 {
+		# file.stdWrap.cObject = TEXT
+		# file.stdWrap.cObject.value = {$plugin.tx_cookieconsent2.view.templateRootPath}/Configuration.html
+		# file.stdWrap.cObject.insertData = 1
+
+		file = EXT:cookieconsent2/Resources/Private/Templates/Configuration.html
+
+		templateRootPath = {$plugin.tx_cookieconsent2.view.templateRootPath}
+		partialRootPath = {$plugin.tx_cookieconsent2.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_cookieconsent2.view.layoutRootPath}
+
+		settings {
+			link = {$plugin.tx_cookieconsent2.settings.link}
+			container = {$plugin.tx_cookieconsent2.settings.container}
+			theme = {$plugin.tx_cookieconsent2.settings.theme}
+			path = {$plugin.tx_cookieconsent2.settings.path}
+			domain = {$plugin.tx_cookieconsent2.settings.domain}
+			expiryDays = {$plugin.tx_cookieconsent2.settings.expiryDays}
+		}
+	}
+}
+
+page.includeJSFooter {
+	cookieconsent2 = EXT:cookieconsent2/Resources/Public/JavaScripts/cookieconsent.min.js
+}

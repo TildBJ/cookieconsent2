@@ -1,0 +1,28 @@
+# customsubcategory=100=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:subcategory.100
+# customsubcategory=110=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:subcategory.110
+
+plugin.tx_cookieconsent2 {
+	view {
+		# cat=cookie consent: basic/file; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:view.templateRootPath
+		templateRootPath = EXT:cookieconsent2/Resources/Private/Templates/
+		# cat=cookie consent: basic/file; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:view.partialRootPath
+		partialRootPath = EXT:cookieconsent2/Resources/Private/Partials/
+		# cat=cookie consent: basic/file; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:view.layoutRootPath
+		layoutRootPath = EXT:cookieconsent2/Resources/Private/Layouts/
+	}
+
+	settings {
+		# cat=cookie consent: basic/110/100; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.link
+		link =
+		# cat=cookie consent: basic/100/110; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.theme
+		theme = dark-bottom
+		# cat=cookie consent: advanced/100/100; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.container
+		container = body
+		# cat=cookie consent: advanced/110/100; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.path
+		path = /
+		# cat=cookie consent: advanced/110/110; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.domain
+		domain =
+		# cat=cookie consent: advanced/110/120; type=string; label=LLL:EXT:cookieconsent2/Resources/Private/Language/locallang_be.xlf:settings.expiryDays
+		expiryDays = 365
+	}
+}
